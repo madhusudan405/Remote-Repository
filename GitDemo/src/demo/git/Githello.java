@@ -4,6 +4,7 @@ public class Githello {
 
 	public static void main(String[] args) {
 		System.out.println("Hello Github");
+		System.out.println("i am continuing with testing of Git");
 
 	}
 
