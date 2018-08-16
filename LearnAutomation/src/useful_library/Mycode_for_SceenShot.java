@@ -23,6 +23,8 @@ public class Mycode_for_SceenShot {
 			
 			System.out.println(e.getMessage());
 		} 
+		
+		//here insted of try catch i can add throws declaration also
 	}
 
 }
