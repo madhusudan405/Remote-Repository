@@ -20,8 +20,8 @@ public class Sliding {
 		
 		//1st method
 		
-		/*List<WebElement> list=driver.findElements(By.id("iframe"));
-		System.out.println(list.size());*/
+		List<WebElement> list=driver.findElements(By.id("iframe"));
+		System.out.println(list.size());
 		driver.switchTo().frame(0);
 		WebElement slider=driver.findElement(By.xpath("//*[@id='slider']/span"));
 		Actions action=new Actions(driver);
