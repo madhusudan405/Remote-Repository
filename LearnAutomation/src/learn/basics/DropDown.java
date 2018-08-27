@@ -56,6 +56,8 @@ public class DropDown {
 			//System.out.println(year.get(k).getAttribute("value"));
 		}
 		
+		
+		driver.close();
 
 	}
 
