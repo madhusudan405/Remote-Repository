@@ -47,10 +47,10 @@ public class RediffMailLogin {
 		Object[][] data=new Object[3][2];
 		data[0][0]="admin";
 		data[0][1]="demo123";
-		data[1][0]="madhusudan405@rediffmail.com";
-		data[1][1]="dontgiveup";
-		data[2][0]="admin";
-		data[2][1]="demo12345";
+		data[1][0]="admin12";
+		data[1][1]="demo12";
+		data[2][0]="madhusudan405@rediffmail.com";
+		data[2][1]="dontgiveup";
 		
 		return data;
 		

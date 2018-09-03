@@ -7,7 +7,7 @@
         <methods>
           <include name="logout"/>
           <include name="teardown"/>
-          <include name="loginToRediff" invocation-numbers="0 2"/>
+          <include name="loginToRediff" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.ddf.RediffMailLogin -->
     </classes>
