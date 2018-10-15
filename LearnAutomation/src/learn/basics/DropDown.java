@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class DropDown {
 
@@ -19,8 +20,8 @@ public class DropDown {
 		WebElement ele=driver.findElement(By.xpath("//*[@id='tblcrtac']/tbody/tr[22]/td[3]/select[1]"));
 		List<WebElement> date=ele.findElements(By.tagName("option"));
 		System.out.println(date.size());
-		
-		for(int i=0;i<date.size();i++) {
+		//Select se=new Select(ele);
+				for(int i=0;i<date.size();i++) {
 			//System.out.println(date.get(i).getText());
 			if(date.get(i).getAttribute("value").equals("21")) {
 				date.get(i).click();
